@@ -8,7 +8,7 @@ export default function header() {
         <span className="emoji wave-hand"></span>
       </h1>
       <h2 className="intro__tagline">
-        I'm <span className="name">Sanjay Satish Shekar</span>, a passionate
+        I&apso;m <span className="name">Sanjay Satish Shekar</span>, a passionate
         FullStack and Cloud based software engineer working on building beautiful and
         complex software systems &amp; solutions
         <img
