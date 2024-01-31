@@ -6,13 +6,23 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer__copyright">
         <div className="top">
-          <span>Designed &amp; Developed by&nbsp;</span>
+          <span>Design Credits&nbsp;</span>
+          <br />
+          <Link
+            className="underline-link"
+            href={"https://brittanychiang.com/"}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <em>Brittany Chiang</em>
+          </Link>
         </div>
-        <div className="bottom">
-          <span>Sanjay Satish Shekar</span>
-          <img src="/emojis/rockon.png" alt="" className="emoji" />
-          <span>2024</span>
-        </div>
+      </div>
+      <div className="footer__copyright middle">
+        <span>Built by&nbsp;</span>
+        <span><em>Sanjay Satish Shekar</em></span>
+        <img src="/emojis/rockon.png" alt="" className="emoji" />
+        <span>2024</span>
       </div>
       <div className="footer__links">
         {Socials.map((social: any) => (
