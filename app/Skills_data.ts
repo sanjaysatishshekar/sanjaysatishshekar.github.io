@@ -1,0 +1,35 @@
+export default {
+  languages: [
+    "Java",
+    "Python",
+    "C/C++",
+    "JavaScript (ES6)",
+    "TypeScript",
+    "Go lang",
+    "Docker/Kubernetes",
+  ],
+  frameworks: [
+    "Spring Boot",
+    "Flask",
+    "Django",
+    "Next.js",
+    "Node.js",
+    "Tensorflow",
+  ],
+  databases: [
+    "SQL/SQlite",
+    "Cassandra",
+    "MongoDB",
+    "Redis",
+    "PostgreSQL",
+    "DynamoDB",
+  ],
+  others: [
+    "Hadoop",
+    "Spark",
+    "Jenkins",
+    "Maven",
+    "npm",
+    "Git/Github",
+  ],
+};

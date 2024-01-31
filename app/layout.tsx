@@ -1,26 +1,24 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
-import { Navbar } from './nav'
-
-const inter = Inter({ subsets: ['latin'] })
+import type { Metadata } from "next";
+import "./globals.css";
+import Providers from "./providers";
 
 export const metadata: Metadata = {
-  title: 'Sanjay Satish Shekar',
-  description: 'Portfolio website',
-}
+  title: "Sanjay Satish Shekar | Full Stack Developer",
+  description: "This is my personal website to showcase my work and skills.",
+};
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
-}) {
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Navbar />
+      <body>
+      {/* <Providers> */}
         {children}
+      {/* </Providers> */}
       </body>
     </html>
-  )
+  );
 }
