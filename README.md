@@ -45,7 +45,7 @@ const sanjay = {
 **Misc Tools**: git, MS Office Suite, Websphere, Maven, Shell Scripting, Apache Tomcat   
 
 
-## Work Experience 👩‍💼
+## Work Experience 👨‍💼
 ⚡️ Graduate Teaching Assistant: Cloud Computing and Big Data - [**Department of Computer Science, University of Texas at Arlington**](https://www.uta.edu/)
 
 ⚡️ Specialist Programmer (Full Stack Developer) - [**Infosys Limited**](https://www.infosys.com/)
