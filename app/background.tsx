@@ -6,7 +6,7 @@ export default function background() {
       <div className="section__title">Background</div>
       <div className="section__content">
         <p>
-          I&apso;m currently a Graduate Teaching Assistant at{" "}
+          I&apos;m currently a Graduate Teaching Assistant at{" "}
           <Link
             className="underline-link"
             href="https://www.uta.edu/"
@@ -14,32 +14,32 @@ export default function background() {
           >
             University of Texas at Arlington
           </Link>
-          , where I&apso;m pursuing my Masters degreee in Computer Science. I&apso;ll be
+          , where I&apos;m pursuing my Masters degreee in Computer Science. I&apos;ll be
           graduating in May 2024. I come with a strong background in FullStack
           and Cloud based software engineering, and have worked on building
-          beautiful and complex software systems &amp; solutions. I have 4 years
+          beautiful and robust software systems &amp; solutions. I have 4 years
           of experience in the industry, and have worked with{" "}
           <Link className="underline-link" href="https://www.infosys.com" target="_blank">
             Infosys Limited
           </Link>
           .{" "}
           <em>
-            I&apso;m currently looking for full-time opportunities in Software
+            I&apos;m currently looking for full-time opportunities in Software
             Engineering, Software Development, FullStack Engineering, Cloud
             Engineering, and related fields.
           </em>
         </p>
         <p>
           As a software engineer, I enjoy bringing ideas to life, and building
-          products that provide a great user experience. I&apso;m passionate about
-          building scalable and efficient applications, and I&apso;m always looking
-          to learn new technologies and frameworks. I&apso;m a quick learner, and I&apso;m
-          always up for a challenge. I&apso;m a team player, and I love working with
-          people from diverse backgrounds. I&apso;m a strong believer in the power of
-          teamwork, and I&apso;m always looking to learn from my peers.
+          products that provide a great user experience. I&apos;m passionate about
+          building scalable and efficient applications, and I&apos;m always looking
+          to learn new technologies and frameworks. I&apos;m a quick learner, and I&apos;m
+          always up for a challenge. I&apos;m a team player, and I love working with
+          people from diverse backgrounds. I&apos;m a strong believer in the power of
+          teamwork, and I&apos;m always looking to learn from my peers.
         </p>
         <p>
-          <strong>When I&apso;m not in front of a computer screen</strong>, I&apso;m
+          <strong>When I&apos;m not in front of a computer screen</strong>, I&apos;m
           probably hiking, playing badminton, or crossing off another item on my
           bucket list.
         </p>
