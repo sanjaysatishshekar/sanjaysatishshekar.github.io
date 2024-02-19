@@ -43,7 +43,7 @@ export default function background() {
           probably hiking, playing badminton, or crossing off another item on my
           bucket list.
         </p>
-        <Link className="status" href="/Resume.pdf" target="_blank">
+        <Link className="status" href="/resume.pdf" target="_blank">
           <div className="status__light">
             <div className="status__light__ring"></div>
             <div className="status__light__led"></div>
