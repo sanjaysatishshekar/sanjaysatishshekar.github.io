@@ -1,9 +1,9 @@
 "use client";
 import { useTheme } from "next-themes";
+import { use, useEffect } from "react";
 
 export default function Switch() {
   const { theme, setTheme } = useTheme();
-  // if (theme === undefined) setTheme("dark");
 
   function changeTheme() {
     if (theme === "light") {
@@ -13,15 +13,20 @@ export default function Switch() {
     }
   }
 
-  function initialTheme() {
-    setTheme("light");
-  }
+  useEffect(() => {
+    if ((new Date()).getHours() >= 18 || (new Date()).getHours() < 6) {
+      setTheme("dark");
+    }
+    else {
+      setTheme("light");
+    }
+  }, []);
   
   return (
     <div className="switch-wrapper">
       <div className="sun"></div>
       <div className="toggle-wrapper">
-        <input id="switch" type="checkbox" onClick={changeTheme} />
+        <input id="switch" type="checkbox" onChange={changeTheme} checked={theme == "dark"} />
         <label className="flex cursor-pointer gap-2" id="toggle" htmlFor="switch">
           <svg
             xmlns="http://www.w3.org/2000/svg"
