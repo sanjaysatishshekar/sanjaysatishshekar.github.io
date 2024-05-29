@@ -19,9 +19,9 @@ export default function Experience() {
             </div>
           ))}
         </div>
-        <Link href="/resume.pdf" target="_blank" className="arrow-link">
+        {/* <Link href="/resume.pdf" target="_blank" className="arrow-link">
           View My Resume
-        </Link>
+        </Link> */}
       </div>
     </section>
   );
