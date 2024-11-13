@@ -8,16 +8,16 @@ export default function header() {
         <span className="emoji wave-hand"></span>
       </h1>
       <h2 className="intro__tagline">
-        I&apos;m <span className="name">Sanjay Satish Shekar</span>, a passionate
-        FullStack and Cloud based software engineer working on building beautiful and
-        robust software systems &amp; solutions
+        I&apos;m <span className="name">Sanjay Satish Shekar</span>, a
+        passionate FullStack and Cloud based software engineer working on
+        building beautiful and robust software systems &amp; solutions
         <img
           className="emoji technologist"
           src="/emojis/technologist.png"
           alt=""
         />
       </h2>
-      <h3 className="intro__contact">
+      {/* <h3 className="intro__contact">
         <span>Get in touch </span>
 
         <img
@@ -34,7 +34,7 @@ export default function header() {
             sanjaysatishshekar@gmail.com
           </Link>
         </span>
-      </h3>
+      </h3> */}
     </header>
   );
 }
