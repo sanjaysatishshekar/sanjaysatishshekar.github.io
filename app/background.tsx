@@ -17,10 +17,10 @@ export default function background() {
           , where I&apos;m pursuing my Masters degreee in Computer Science. I&apos;ll be
           graduating in May 2024. I come with a strong background in FullStack
           and Cloud based software engineering, and have worked on building
-          beautiful and robust software systems &amp; solutions. I have 4 years
+          beautiful and robust software systems &amp; solutions. I have over 5 years
           of experience in the industry, and have worked with{" "}
-          <Link className="underline-link" href="https://www.infosys.com" target="_blank">
-            Infosys Limited
+          <Link className="underline-link" href="https://www.apple.com" target="_blank">
+            Apple Inc
           </Link>
           .{" "}
           <em>
