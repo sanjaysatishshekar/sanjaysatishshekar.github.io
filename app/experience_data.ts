@@ -6,10 +6,10 @@ export default [
     position: "Software Developer",
   },
   {
-    company: "SEAR Labs, UTA",
-    url: "https://www.uta.edu/",
-    time: "July 2024 - May 2025",
-    position: "Research Volunteer",
+    company: 'Sear Labs',
+    url: 'https://searlab.uta.edu/',
+    time: 'July 2024 - May 2025',
+    position: 'Research Volunteer',
   },
   {
     company: "University of Texas at Arlington",
@@ -19,8 +19,8 @@ export default [
   },
   {
     company: "Apple Inc",
-    url: "https://apple.com/",
-    time: "July 2018 - July 2024",
-    position: "Software Engineer (Consultant)",
-  },
-];
+    url: 'https://apple.com/',
+    time: 'July 2018 - July 2024',
+    position: 'Software Engineer (Contractor)',
+  }
+]
