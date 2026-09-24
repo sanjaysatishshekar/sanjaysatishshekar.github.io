@@ -1,9 +1,12 @@
 import Link from "next/link";
 
-export default function background() {
+export default function Background() {
   return (
-    <section className="section">
-      <div className="section__title">Background</div>
+    <section className="section" id="about">
+      <div className="section__title">
+        <span>01</span>
+        <h2>About</h2>
+      </div>
       <div className="section__content">
         <p>
           I&apos;m currently a Graduate Teaching Assistant at{" "}
@@ -43,8 +46,7 @@ export default function background() {
           probably hiking, playing badminton, or crossing off another item on my
           bucket list.
         </p>
-        {/* <Link className="status" href="/resume.pdf" target="_blank"> */}
-        <Link className="status" href="" target="">
+        <div className="status">
           <div className="status__light">
             <div className="status__light__ring"></div>
             <div className="status__light__led"></div>
@@ -52,7 +54,7 @@ export default function background() {
           <div className="status__message">
             Currently seeking full-time opportunities!
           </div>
-        </Link>
+        </div>
       </div>
     </section>
   );

@@ -4,7 +4,8 @@ import Providers from "./providers";
 
 export const metadata: Metadata = {
   title: "Sanjay Satish Shekar | Full Stack Developer",
-  description: "This is my personal website to showcase my work and skills.",
+  description:
+    "Sanjay Satish Shekar is a software engineer focused on full-stack systems, cloud platforms, and scalable digital experiences.",
 };
 
 export default function RootLayout({
@@ -13,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body>
       <Providers>
         {children}

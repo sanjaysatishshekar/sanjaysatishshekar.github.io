@@ -1,9 +1,12 @@
 import data from "./Skills_data";
 
-export default async function Skills() {
+export default function Skills() {
   return (
-    <section className="section skills">
-      <div className="section__title">Skills</div>
+    <section className="section skills" id="skills">
+      <div className="section__title">
+        <span>03</span>
+        <h2>Skills</h2>
+      </div>
       <div className="section__content">
         <div className="skillz">
           <div className="skillz__category">

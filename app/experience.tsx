@@ -3,8 +3,11 @@ import Link from "next/link";
 
 export default function Experience() {
   return (
-    <section className="section experience">
-      <div className="section__title">Experience</div>
+    <section className="section experience" id="experience">
+      <div className="section__title">
+        <span>02</span>
+        <h2>Experience</h2>
+      </div>
       <div className="section__content">
         <div className="jobs">
           {Data.map((job: any) => (
@@ -13,7 +16,7 @@ export default function Experience() {
                 <div className="job__company">
                   <Link href={job.url}>{job.company}</Link>
                 </div>
-                <div className="job__time">{job.time}</div>
+                <div className="job__time">{job.time.replace(" - ", " — ")}</div>
               </div>
               <div className="job__position">{job.position}</div>
             </div>
