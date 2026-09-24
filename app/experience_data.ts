@@ -3,10 +3,10 @@ export default [
     company: "Walmart Global Tech",
     url: "https://tech.walmart.com/content/walmart-global-tech/en_us.html",
     time: "May 2025 - Present",
-    position: "Software Developer",
+    position: "Software Engineer (Contractor)",
   },
   {
-    company: 'Sear Labs',
+    company: 'SEAR Labs',
     url: 'https://searlab.uta.edu/',
     time: 'July 2024 - May 2025',
     position: 'Research Volunteer',
@@ -20,7 +20,7 @@ export default [
   {
     company: "Apple Inc",
     url: 'https://apple.com/',
-    time: 'July 2018 - July 2024',
+    time: 'July 2018 - July 2022',
     position: 'Software Engineer (Contractor)',
   }
 ]
