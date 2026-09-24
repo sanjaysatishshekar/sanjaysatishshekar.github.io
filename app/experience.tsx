@@ -11,7 +11,7 @@ export default function Experience() {
             <div className="job" key={job.company}>
               <div className="time-place">
                 <div className="job__company">
-                  <Link href="{job.url}">{job.company}</Link>
+                  <Link href={job.url}>{job.company}</Link>
                 </div>
                 <div className="job__time">{job.time}</div>
               </div>

@@ -1,13 +1,13 @@
 export default [
   {
     company: 'TechClub Inc',
-    url: '',
+    url: 'https://gotechclub.com/',
     time: 'May 2025 - Present',
     position: 'Software Engineer',
   },
   {
     company: 'Sear Labs',
-    url: 'https://www.uta.edu/',
+    url: 'https://searlab.uta.edu/',
     time: 'July 2024 - May 2025',
     position: 'Research Volunteer',
   },
@@ -21,6 +21,6 @@ export default [
     company: "Apple Inc",
     url: 'https://apple.com/',
     time: 'July 2018 - July 2024',
-    position: 'Software Engineer (Consultant)',
+    position: 'Software Engineer (Contractor)',
   }
 ]
