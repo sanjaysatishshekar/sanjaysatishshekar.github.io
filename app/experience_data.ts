@@ -1,9 +1,9 @@
 export default [
   {
-    company: 'TechClub Inc',
-    url: 'https://gotechclub.com/',
-    time: 'May 2025 - Present',
-    position: 'Software Engineer',
+    company: "Walmart Global Tech",
+    url: "https://tech.walmart.com/content/walmart-global-tech/en_us.html",
+    time: "May 2025 - Present",
+    position: "Software Developer",
   },
   {
     company: 'Sear Labs',
@@ -12,10 +12,10 @@ export default [
     position: 'Research Volunteer',
   },
   {
-    company: 'University of Texas at Arlington',
-    url: 'https://www.uta.edu/',
-    time: 'August 2023 - May 2024',
-    position: 'Graduate Teaching Assistant',
+    company: "University of Texas at Arlington",
+    url: "https://www.uta.edu/",
+    time: "August 2023 - May 2024",
+    position: "Graduate Teaching Assistant",
   },
   {
     company: "Apple Inc",
